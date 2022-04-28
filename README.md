@@ -17,6 +17,6 @@ brew uninstall git
 Install this formula and build it from source with `curl-openssl`:
 
 ```shell
-brew tap mschoettle/git-curl-openssl
+brew tap chronum/git-curl-openssl
 brew install -s git-curl-openssl
 ```
