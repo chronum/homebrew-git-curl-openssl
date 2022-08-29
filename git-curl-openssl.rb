@@ -4,8 +4,8 @@
 class GitCurlOpenssl < Formula
   desc "Distributed revision control system"
   homepage "https://git-scm.com"
-  url "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.36.0.tar.xz"
-  sha256 "af5ebfc1658464f5d0d45a2bfd884c935fb607a10cc021d95bc80778861cc1d3"
+  url "https://mirrors.edge.kernel.org/pub/software/scm/git/git-2.37.2.tar.xz"
+  sha256 "1c3d9c821c4538e7a6dac30a4af8bd8dcfe4f651f95474c526b52f83406db003"
   head "https://github.com/git/git.git", shallow: false
 
   livecheck do
@@ -24,13 +24,13 @@ class GitCurlOpenssl < Formula
   end
 
   resource "html" do
-    url "https://mirrors.edge.kernel.org/pub/software/scm/git/git-htmldocs-2.36.0.tar.xz"
-    sha256 "acc3e2a3c7c253ee48f82c9a73b5556618f89b518752a8984b7e44d7bcf91be9"
+    url "https://mirrors.edge.kernel.org/pub/software/scm/git/git-htmldocs-2.37.2.tar.xz"
+    sha256 "156afd46528593ba0347e041dc25db67ae55952b72407b084aaf1c8d3df5d99b"
   end
 
   resource "man" do
-    url "https://mirrors.edge.kernel.org/pub/software/scm/git/git-manpages-2.36.0.tar.xz"
-    sha256 "c063c30e3d712865f1057c50f4b736b8ccab4bb542ca1c3b157d45e5ad61db5c"
+    url "https://mirrors.edge.kernel.org/pub/software/scm/git/git-manpages-2.37.2.tar.xz"
+    sha256 "df0613fe38702dee9e981aba800362c843bb81de0b54581448e87bff5d4816fe"
   end
 
   resource "Net::SMTP::SSL" do
